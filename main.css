@@ -7,25 +7,53 @@
 }
 
 /* CONTAINER */
-.container{
+.container {
     width: 1366px;
     margin: 0 auto;
 }
 
 /* HEADER */
 
-header{
-    padding: 16px 0;
-    background-color:#182c61;
+header {
+    padding: 15px 0;
+    background-color: #d8563f;
     color: #ecf0f1;
-}
-header li{
-    display:inline;
-    margin-left: 10px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
 }
 
-header .container{
+header li {
+    display: inline;
+    margin-left: 30px;
+}
+
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/* FOOTER */
+footer{
+    background-color: #d8563f;
+    color: white;
+    font-family: helvetica;
+    padding: 20px 0;
+    font-weight: bold;
+}
+/* ESTILIZAR LINKS */
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: black;
+}
+
+section{
+    min-height: 500px;
 }
