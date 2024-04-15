@@ -5,3 +5,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* CONTAINER */
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+    padding: 16px 0;
+    background-color:#182c61;
+    color: #ecf0f1;
+}
+header li{
+    display:inline;
+    margin-left: 10px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
