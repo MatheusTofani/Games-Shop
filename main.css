@@ -35,14 +35,41 @@ header .container {
     justify-content: space-between;
 }
 
+/* SECTION SOBRE A LOJA */
+.articles {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+article img {
+    height: 500px;
+}
+
+.articles article {
+    width: 40%;
+}
+
+article h2 {
+    font-family: "Bungee", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 27px;
+    color:#d8563f;
+}
+
+.articles {
+    font-family: helvetica;
+}
 /* FOOTER */
-footer{
+footer {
     background-color: #d8563f;
     color: white;
     font-family: helvetica;
     padding: 20px 0;
     font-weight: bold;
 }
+
 /* ESTILIZAR LINKS */
 
 header a {
@@ -54,6 +81,6 @@ header a:hover {
     color: black;
 }
 
-section{
+section {
     min-height: 500px;
 }
