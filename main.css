@@ -35,6 +35,10 @@ header .container {
     justify-content: space-between;
 }
 
+header img {
+    width: 150px;
+}
+
 /* SECTION SOBRE A LOJA */
 .articles {
     display: flex;
@@ -43,11 +47,11 @@ header .container {
 }
 
 article img {
-    height: 500px;
+    height: 440px;
 }
 
 #sobre .articles article {
-    width: 40%;
+    width: 48%;
 }
 
 article {
@@ -66,7 +70,20 @@ h2 {
     font-family: helvetica;
 }
 
+#sobre p {
+    color: #58170b;
+}
+
+#sobre {
+    margin-top: 40px;
+}
+
+#descricao img {
+    height: 50px;
+    margin-left: 12px;
+}
 /* SECTION CONTATO */
+
 .metodos {
     display: flex;
     justify-content: space-between;
@@ -96,7 +113,8 @@ form textarea {
     font-size: 15px;
     margin-bottom: 15px;
 }
-form input{
+
+form input {
     height: 40px;
 }
 
@@ -114,6 +132,7 @@ form button {
     font-style: normal;
     font-size: 18px;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 
 input:focus,
@@ -121,9 +140,9 @@ textarea:focus {
     outline-color: #d8563f;
 }
 
-.social img{
+.social img {
     display: inline;
-    height: 50px;
+    height: 45px;
     align-items: center;
     margin-left: 5px;
 }
@@ -132,6 +151,11 @@ textarea:focus {
     font-family: helvetica;
     font-size: 18px;
 }
+
+#endereco p {
+    color: #58170b;
+}
+
 /* FOOTER */
 footer {
     background-color: #d8563f;
@@ -149,9 +173,13 @@ header a {
 }
 
 header a:hover {
-    color: black;
+    color: #ebbfb7;
 }
 
 section {
     min-height: 500px;
+}
+
+#contato button:hover {
+    background-color: #ebbfb7;
 }
