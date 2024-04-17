@@ -5,24 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Shop - A sua loja de games</title>
+    <!-- GOOGLE FONTS -->
     <link rel="stylesheet" href="./main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Bungee&family=Jersey+25&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="imagens/logo.png" />
 </head>
 
 <body>
 
     <!-- HEADER -->
-    <header>
+    <header id="inicio">
         <div class="container">
-            <h1>Games Shop</h1>
+            <img src="imagens/logo.png">
             <nav>
                 <ul>
                     <li> <a href="#sobre">Sobre a Loja</a> </li>
                     <li> <a href="#contato">Contato</a> </li>
+                    <li><a href="#suporte">Suporte</a> </li>
+                    <li><a href="#projeto">Projeto</a></li>
                 </ul>
             </nav>
         </div>
@@ -34,10 +39,10 @@
             <div class="articles">
 
                 <article>
-                    <img src="aaa.jpg">
+                    <img src="imagens/loja.png">
                 </article>
 
-                <article>
+                <article id="descricao">
                     <p>
                     <h2>Sobre a loja</h2>
                     </p>
@@ -50,10 +55,52 @@
                         para você.</p>
                     </br>
                     <p>Obrigado por fazer parte da comunidade Games Shop. Vamos jogar juntos!</p>
-
+                    </br>
+                    <p>
+                    <h2>Parceiros</h2>
+                    </p>
+                    </br>
+                    <img src="imagens/xbox.png">
+                    <img src="imagens/ps.png">
+                    <img src="imagens/nintendo.png">
                 </article>
 
             </div>
+        </div>
+    </section>
+
+    <!-- PROJETO -->
+    <section id="projeto">
+        <div class="container">
+            <article>
+                <h2>Projeto</h2>
+                <ul>
+                    <li> Expandir a presença da Games Shop em novos mercados geográficos.</li>
+                    <li>Aumentar as vendas e a receita por meio da abertura de novas filiais.</li>
+                    <li>Oferecer uma experiência excepcional ao cliente em cada localização.</li>
+                    <li>Consolidar a posição da Games Shop como líder no setor de entretenimento digital.</li>
+                </ul>
+            </article>
+            <article><img src="imagens/futuro.jpg"></article>
+        </div>
+
+    </section>
+
+    <!-- SUPORTE -->
+    <section id="suporte">
+        <div class="container">
+            <article>
+                <img src="imagens/assistente.png">
+            </article>
+
+            <article>
+                <h2>Fale conosco!</h2>
+                </br>
+                <p> Suporte 24 horas com humanos! Tire qualquer duvida ou resolve seu problema ja.
+                    Entre em contato com nossa equipe!</p>
+                </br>
+                </br> <a href="#contato">Entrar</a>
+            </article>
         </div>
     </section>
 
@@ -65,6 +112,7 @@
 
 
                 <div>
+                    <!-- FORMULARIO -->
                     <h3>Fale conosco</h3>
                     <form>
 
@@ -77,28 +125,33 @@
                     </form>
                 </div>
                 <div>
+                    <!-- LINKS -->
                     <div class="social">
                         <h3>Nos acompanhe</h3>
-                        <img src="facebook.png">
-                        <img src="instagram.png">
-                        <img src="youtube.png">
+                        <a href="#inicio"> <img src="imagens/facebook.png"> </a>
+                        <a href="#inicio"> <img src="imagens/instagram.png"></a>
+                        <a href="#inicio"> <img src="imagens/youtube.png"> </a>
                     </div>
                 </div>
-
+                <!-- ENDEREÇO -->
                 <div id="endereco">
                     <h3>Venha até nós</h3>
-                    <p> Rua JavaScript n° 124, Vila HTML - São Paulo - SP</p>
+                    <p> Rua Niquelina n° 1445, Santa Tereza - Belo Horizonte - MG</p>
                 </div>
 
             </div>
         </div>
     </section>
 
-
     <!-- RODAPE -->
     <footer>
         <div class="container">
-            © Games Shop - Todos os direitos reservados - 2024
+            <div>
+                © Games Shop - Todos os direitos reservados - 2024
+            </div>
+            <div>
+                Atuando desde 2002.
+            </div>
         </div>
     </footer>
 
