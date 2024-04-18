@@ -25,7 +25,7 @@ header {
 
 header li {
     display: inline;
-    margin-left: 30px;
+    margin-left: 80px;
 }
 
 header .container {
@@ -80,24 +80,46 @@ h2 {
     height: 50px;
     margin-left: 12px;
 }
+
 /* PROJETO */
-#projeto{
+#projeto {
     background-color: #fc8672;
 }
-#projeto .container{
-    display:flex;
-    margin-top:50px;
+
+#projeto .container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
 }
 
-#projeto .container article{
+#projeto .container article {
     width: 40%;
+
 }
-#projeto .container article h2{
-    color:white;
+
+#projeto .container article h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
-#projeto .container article img{
-    height: 300px;
+
+#projeto .container article img {
+    height: 400px;
+    margin-top: 50px;
 }
+
+#projeto .container article li {
+    color: #58170b;
+    font-family: helvetica;
+    font-size: 20px;
+    align-items: center;
+    font-weight: bold;
+}
+
+#projeto .container #lista{
+    margin-top: 70px;
+}
+
 /* SUPORTE */
 
 #suporte {
@@ -178,6 +200,10 @@ form textarea {
     font-size: 15px;
     margin-bottom: 15px;
 }
+form input, textarea{
+background-color: #f8f2f1;
+border-color: #d8563f;
+}
 
 form input {
     height: 40px;
@@ -203,7 +229,7 @@ form button {
 
 input:focus,
 textarea:focus {
-    outline-color: #d8563f;
+    outline-color: #58170b;
 }
 
 .social img {
